@@ -28,3 +28,6 @@ def get_english_meaning(file_path, emoticon)
   end 
   english_meaning
 end
+
+
+#For these two final methods you are asking it to assess the previously defined two nested hashes (get_meaning and get_emoticon) to return the value for the key that is passed to it in the argument call (emoticon). If a false value is returned i.e. it can't find the key to return a value for, it apologises. 
