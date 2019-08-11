@@ -9,7 +9,7 @@ def load_library(file_path)
   emoticons.each do |key, value|
     new_emote_hash["get_meaning"][value[1]] = key
   end
-  return new_emote_hash
+  new_emote_hash
 end
 
 
