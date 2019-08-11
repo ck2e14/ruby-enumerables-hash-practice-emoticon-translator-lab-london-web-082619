@@ -16,9 +16,9 @@ end
 #next you are doing a similar thing with the nested hash 'get_emoticon' which takes the english emote at index 0 of the 'corresponding_emote_array's to be the keys of this new hash and then assings the values of these new keys to be whatever is found at index 1 of the return value of 'emote_name', which is always the japanese emote. 
 
 def get_japanese_emoticon(file_path, emoticon)
-  load_library(file_path)
   if !converted_emoticon = load_library(file_path)["get_emoticon"][emoticon]
     return "Sorry, that emoticon was not found"
   end
   converted_emoticon
 end
+
