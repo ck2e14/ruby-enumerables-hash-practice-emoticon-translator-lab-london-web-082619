@@ -14,6 +14,5 @@ def load_library(file_path)
 end
 #here you are creating and defining key-value pairs (in each empty nested hash) that invokes the correctly indexed value from the .yml file to be the key, and then assigning the value of this new key to be (in the get_meaning hash) the name of the emoticon (i.e. 'key' as designated in the block parameter)
 
-def get_japanese_emoticon(file_path, emoticon)
-  load_library(file_path)
+
 
