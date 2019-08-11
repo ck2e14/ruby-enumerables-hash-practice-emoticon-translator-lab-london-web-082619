@@ -18,5 +18,10 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   load_library(file_path)
   returned_emoticon = load_library(file_path)["get_emoticon"][emoticon]
+  if returned_emoticon = nil 
+    return "Sorry, that emoticon was not found"
+  end
+
+returned_emoticon
 end
 
